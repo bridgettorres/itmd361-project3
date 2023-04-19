@@ -4,3 +4,19 @@ function initMap() {
     zoom: 12
   });
 }
+
+const gokuimg = document.getElementById('goku');
+    
+gokuimg.addEventListener('click', () => {
+  const t = document.getElementById('text');
+  t.textContent = 'GOKU';
+});
+
+const tofuimg = document.getElementById('tofu');
+    
+tofuimg.addEventListener('click', () => {
+  const g = document.getElementById('text');
+  g.textContent = 'TOFU';
+});
+
+
