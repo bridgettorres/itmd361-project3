@@ -191,14 +191,38 @@ h3{
   height: 60px;
 }
 /*media query for smartphone*/
-@media screen and (max-width: 480px) {
-  #aboutme{
-    width: 80%;
+@media(max-width: 480px) {
+  .dogs-media {
+    flex-direction: column;
+    align-items: center;
+  }
+  #dogs h4{
+    display: none !important;
+  }
+  #aboutme {
+    width: 100%;
+  }
+  #obs {
+    width: 100%;
   }
 }
 /*media query for tablet*/
-@media screen and (max-width: 768px) {
-  #aboutme {
-    width: 90%;
+@media(max-width: 768px) {
+  .dogs-media {
+    flex-direction: column;
+    align-items: center;
   }
+  #dogs h4{
+    display: none !important;
+  }
+  #aboutme {
+    width: 100%;
+  }
+  #obs {
+    width: 100%;
+  }
+}
+#mapplace{
+  height: 400px;
+  width: 100%;
 }
