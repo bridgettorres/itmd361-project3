@@ -8,7 +8,7 @@ function initMap() {
     position: {lat: 42.770503881520774, lng: 12.463473127505198},
     map:map,
     icon: {
-      url: 'https://www.iconsdb.com/icons/preview/deep-pink/map-marker-2-xxl.png',
+      url: 'https://cdn2.iconfinder.com/data/icons/IconsLandVistaMapMarkersIconsDemo/256/MapMarker_Marker_Outside_Pink.png',
       scaledSize: new google.maps.Size(40, 40)
     }
   });
@@ -34,19 +34,18 @@ function initMap() {
   
   
 }
+if (document.body.classList.contains('index')){
+  const gokuimg = document.getElementById('goku');
+      
+  gokuimg.addEventListener('click', () => {
+    const t = document.getElementById('text');
+    t.textContent = 'GOKU';
+  });
 
-const gokuimg = document.getElementById('goku');
-    
-gokuimg.addEventListener('click', () => {
-  const t = document.getElementById('text');
-  t.textContent = 'GOKU';
-});
-
-const tofuimg = document.getElementById('tofu');
-    
-tofuimg.addEventListener('click', () => {
-  const g = document.getElementById('text');
-  g.textContent = 'TOFU';
-});
-
-
+  const tofuimg = document.getElementById('tofu');
+      
+  tofuimg.addEventListener('click', () => {
+    const g = document.getElementById('text');
+    g.textContent = 'TOFU';
+  });
+}
