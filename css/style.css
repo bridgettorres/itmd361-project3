@@ -143,6 +143,7 @@ video:hover{
   background-color: #FFF5EE;
   padding: 20px;
   font-family: 'Courier New', Courier, monospace;
+  padding-bottom: 0%;
 }
 #resume section{
   border-bottom: 1px solid #456064;
